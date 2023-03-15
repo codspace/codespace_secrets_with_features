@@ -1,0 +1,7 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "./features/aaa": {}
+    },
+    "postStartCommand": "echo \"From the user dev container: $MY_SECRET\""
+}
