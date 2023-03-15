@@ -3,5 +3,5 @@
     "id": "aaa",
     "name": "Feature A",
     "entrypoint": "/usr/local/share/featureA.sh",
-    "postStartCommand": "echo \"From Feature A: $MY_SECRET\""
+    "postStartCommand": "echo \"From Feature A: $MY_SECRET\" && echo \"$MY_SECRET\" > /tmp/secret-from-feature.txt"
 }

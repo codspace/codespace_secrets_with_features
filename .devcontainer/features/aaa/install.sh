@@ -20,4 +20,7 @@ exec "$@"
 
 EOF
 
+chmod +x /usr/local/share/featureA.sh
+chown ${_REMOTE_USER}:root /usr/local/share/featureA.sh
+
 echo "Done!"
